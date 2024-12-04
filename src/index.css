@@ -5,6 +5,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,4 +16,92 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.root_layout_container{
+
+}
+
+.app_container{
+
+}
+
+.pages_container{
+  padding-inline: 4rem;
+  min-width: 320px;
+}
+
+
+/* Homepage Styles */
+/* Homepage Styles */
+/* Homepage Styles */
+/* Homepage Styles */
+
+.homepage__container{
+
+}
+
+
+/* Hero Section */
+/* Hero Section */
+
+
+.hero__section{
+  border:2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:460px) {
+ .pages_container{
+  padding-inline: 10px;
+
+ }
+ 
+  .hero__section{
+    flex-direction: column;
+  }
+}
+
+
+.hero__section__text__container{
+flex:1 1 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.hero__section__text{
+
+  width: 80%;
+}
+.hero__section__text p{
+font-weight: 500;
+font-size: 18px;
+}
+
+.hero__section__text h2{
+  font-weight: 400;
+  font-size: 60px;
+  }
+
+.hero__section__image__container{
+  flex:1 1 50%;
+  width: 100%;
+  padding:0;
+}
+
+.hero__section__image__container img{
+  width: 100%;
+  display: block;
+  padding:0;
+  margin:0;
 }

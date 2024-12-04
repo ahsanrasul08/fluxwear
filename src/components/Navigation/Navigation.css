@@ -1,0 +1,31 @@
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-block: 1rem;
+box-shadow: -2px -4px 30px 5px rgba(0, 0, 0, 0.384);
+padding-inline: 4rem;
+}
+
+.nav__list{
+    display : flex;
+    list-style-type: none;
+    gap:22px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav__list li{
+
+    cursor:pointer;
+    transition: 1s ease-in-out;
+}
+
+.nav__list li:hover{
+text-decoration: underline;
+color:greenyellow;
+text-underline-offset:12px;
+}
+.nav__icons{
+    display: flex;
+    gap:33px;
+}
